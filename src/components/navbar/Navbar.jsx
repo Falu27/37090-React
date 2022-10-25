@@ -8,7 +8,7 @@ const Navbar = () => {
         
             <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
   <div className="container-fluid">
-    <a className='LogoWake' href='#'> <div> <img src={LogoWU} alt="" width="40" /> </div> </a>
+    <a className='LogoWake' href='#'> <div> <img src={LogoWU} alt="" width="60" /> </div> </a>
     <a className="navbar-brand" href="#">WakeUp</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon" />
@@ -22,12 +22,17 @@ const Navbar = () => {
           <a className="nav-link" href="#">Nosotros</a>
         </li>
         <Dropdown/>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Carrito </a>
-        </li>
+        
       </ul>
       <FormSearch busqueda={"Buscar Producto"} />
     </div>
+    
+    <ul className='navbar-nav me-auto'>
+      <li className='nav-item'>
+        <a href="#"> <button className='btn btn-dark'> <i class="fa-solid fa-cart-shoping"></i>Carro</button> </a>
+      </li>
+    </ul>
+  
   </div>
 </nav>
         
