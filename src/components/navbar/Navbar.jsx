@@ -29,7 +29,7 @@ const Navbar = () => {
     
     <ul className='navbar-nav me-auto'>
       <li className='nav-item'>
-        <a href="#"> <button className='btn btn-dark'> <i class="fa-solid fa-cart-shoping"></i>Carro</button> </a>
+        <a href="#"> <button className='btn btn-dark'> <i class="fa-solid fa-cart-shopping"></i></button> </a>
       </li>
     </ul>
   
