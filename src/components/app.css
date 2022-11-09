@@ -1,0 +1,39 @@
+.cardProducto {
+    width: 18rem;
+    margin: 6px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, .6);
+    border: 1px dashed orange;
+    color: rgb(255, 194, 52);
+    }
+
+    .cardProducto img{
+        opacity: .8;
+        border-radius: 40px;
+        border: 2px solid gray;
+    }
+
+.ItemDetail{
+    max-width: 450px;
+    margin-top: 30px;
+    background-image: url(../img/detalle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family:'Kalam', cursive ; 
+    border: 2px solid white;
+    border-radius: 20px;
+    
+}
+
+.Nosotros h1, h2{
+    color: white;
+    font-size: 100px;
+    font-family: 'Kalam', cursive;
+}
+
+.CartT{
+    color: #ffae00;
+    font-family: 'Kalam', cursive;
+    font-size: 70px;
+}

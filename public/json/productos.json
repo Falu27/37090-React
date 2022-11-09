@@ -1,0 +1,113 @@
+[
+    {
+        "id": "Venzo-Eolo-29",
+        "idCategoria": 1,
+        "nombre": "Bicicleta",
+        "marca": "Venzo",
+        "modelo": "Eolo",
+        "rodado": "29",
+        "precio": 80000,
+        "stock": 30,
+        "img": "1Eolo.png"
+    },
+    {
+        "id": "Oxea-Folding-20",
+        "idCategoria": 3,
+        "nombre": "Bicicleta",
+        "marca": "Oxea",
+        "modelo": "Folding",
+        "rodado": "20",
+        "precio": 40000,
+        "stock": 20,
+        "img": "2Folding.png"
+    },
+    {
+        "id": "Oxea-Hunter-29",
+        "idCategoria": 1,
+        "nombre": "Bicicleta",
+        "marca": "Oxea",
+        "modelo": "Hunter",
+        "rodado": "29",
+        "precio": 57000,
+        "stock": 15,
+        "img": "3Hunter.png"
+    },
+    {
+        "id": "Oxea-Ridich-29",
+        "idCategoria": 1,
+        "nombre": "Bicicleta",
+        "marca": "Oxea",
+        "modelo": "Ridich",
+        "rodado": "29",
+        "precio": 80000,
+        "stock": 30,
+        "img": "4Ridich.png"
+    },
+    {
+        "id": "Venzo-Primal-29",
+        "idCategoria": 1,
+        "nombre": "Bicicleta",
+        "marca": "Venzo",
+        "modelo": "Primal",
+        "rodado": "29",
+        "precio": 114000,
+        "stock": 7,
+        "img": "5Primal.png"
+    },
+    {
+        "id": "Venzo-Raptor-29",
+        "idCategoria": 1,
+        "nombre": "Bicicleta",
+        "marca": "Venzo",
+        "modelo": "Raptor",
+        "rodado": "29",
+        "precio": 110000,
+        "stock": 20,
+        "img": "6Raptor.png"
+    },
+    {
+        "id": "Venzo-Thorn-29",
+        "idCategoria": 1,
+        "nombre": "Bicicleta",
+        "marca": "Venzo",
+        "modelo": "Thorn",
+        "rodado": "29",
+        "precio": 115000,
+        "stock": 10,
+        "img": "7Thorn.png"
+    },
+    {
+        "id": "Venzo-Etna-29",
+        "idCategoria": 2,
+        "nombre": "Bicicleta",
+        "marca": "Venzo",
+        "modelo": "Etna",
+        "rodado": "29",
+        "precio": 165000,
+        "stock": 30,
+        "img": "8Etna.png"
+    },
+    {
+        "id": "Venzo-Raphael-29",
+        "idCategoria": 2,
+        "nombre": "Bicicleta",
+        "marca": "Venzo",
+        "modelo": "Raphael",
+        "rodado": "29",
+        "precio": 234000,
+        "stock": 21,
+        "img": "9Raphael.png"
+    },
+    {
+        "id": "Cubierta-Maxxis-TR-29",
+        "idCategoria": 4,
+        "nombre": "Cubierta",
+        "marca": "Maxxis",
+        "modelo": "TR",
+        "rodado": "29",
+        "precio": 10000,
+        "stock": 25,
+        "img": "10Cubierta.png"
+    }
+    
+]
