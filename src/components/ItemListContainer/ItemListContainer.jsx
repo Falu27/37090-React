@@ -11,7 +11,7 @@ const ItemListContainer = () => {
     useEffect(() => {
         if (category) {
 
-            consultarBDD('./json/productos.json').then(products => {
+            consultarBDD('../json/productos.json').then(products => {
                 const productsList = products.filter(prod => prod.idCategoria === parseInt(category))
                 const cardProductos = ItemList ({productsList})
                 
@@ -31,7 +31,7 @@ const ItemListContainer = () => {
 
 
     return (
-        <div className='row'>
+        <div className='row cardProductos'>
             {productos}
         </div>
 
