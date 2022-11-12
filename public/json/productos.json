@@ -1,7 +1,7 @@
 [
     {
         "id": "Venzo-Eolo-29",
-        "idCategoria": 1,
+        "idCategoria": "mountain",
         "nombre": "Bicicleta",
         "marca": "Venzo",
         "modelo": "Eolo",
@@ -12,7 +12,7 @@
     },
     {
         "id": "Oxea-Folding-20",
-        "idCategoria": 3,
+        "idCategoria": "urbana",
         "nombre": "Bicicleta",
         "marca": "Oxea",
         "modelo": "Folding",
@@ -23,7 +23,7 @@
     },
     {
         "id": "Oxea-Hunter-29",
-        "idCategoria": 1,
+        "idCategoria": "mountain",
         "nombre": "Bicicleta",
         "marca": "Oxea",
         "modelo": "Hunter",
@@ -34,7 +34,7 @@
     },
     {
         "id": "Oxea-Ridich-29",
-        "idCategoria": 1,
+        "idCategoria": "mountain",
         "nombre": "Bicicleta",
         "marca": "Oxea",
         "modelo": "Ridich",
@@ -45,7 +45,7 @@
     },
     {
         "id": "Venzo-Primal-29",
-        "idCategoria": 1,
+        "idCategoria": "mountain",
         "nombre": "Bicicleta",
         "marca": "Venzo",
         "modelo": "Primal",
@@ -56,7 +56,7 @@
     },
     {
         "id": "Venzo-Raptor-29",
-        "idCategoria": 1,
+        "idCategoria": "mountain",
         "nombre": "Bicicleta",
         "marca": "Venzo",
         "modelo": "Raptor",
@@ -67,7 +67,7 @@
     },
     {
         "id": "Venzo-Thorn-29",
-        "idCategoria": 1,
+        "idCategoria": "mountain",
         "nombre": "Bicicleta",
         "marca": "Venzo",
         "modelo": "Thorn",
@@ -78,7 +78,7 @@
     },
     {
         "id": "Venzo-Etna-29",
-        "idCategoria": 2,
+        "idCategoria": "ruteras",
         "nombre": "Bicicleta",
         "marca": "Venzo",
         "modelo": "Etna",
@@ -89,7 +89,7 @@
     },
     {
         "id": "Venzo-Raphael-29",
-        "idCategoria": 2,
+        "idCategoria": "ruteras",
         "nombre": "Bicicleta",
         "marca": "Venzo",
         "modelo": "Raphael",
@@ -100,7 +100,7 @@
     },
     {
         "id": "Cubierta-Maxxis-TR-29",
-        "idCategoria": 4,
+        "idCategoria": "accesorios",
         "nombre": "Cubierta",
         "marca": "Maxxis",
         "modelo": "TR",

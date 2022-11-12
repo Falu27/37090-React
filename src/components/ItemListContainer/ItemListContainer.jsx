@@ -12,7 +12,7 @@ const ItemListContainer = () => {
         if (category) {
 
             consultarBDD('../json/productos.json').then(products => {
-                const productsList = products.filter(prod => prod.idCategoria === parseInt(category))
+                const productsList = products.filter(prod => prod.idCategoria === (category))
                 const cardProductos = ItemList ({productsList})
                 
                 setProductos(cardProductos)
@@ -27,7 +27,7 @@ const ItemListContainer = () => {
             })
         }
         
-    }, []);
+    }, [category]);
 
 
     return (

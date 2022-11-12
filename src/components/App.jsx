@@ -7,6 +7,7 @@ import ItemListContainer from './ItemListContainer/ItemListContainer';
 import ItemDetailContainer from './ItemDetailContainer/ItemDetailContainer';
 import Cart from './Cart/Cart';
 import Nosotros from './Nosotros/Nosotros';
+import Servis from './Servis/Servis';
 
 const App = () => {
   return (
@@ -19,7 +20,8 @@ const App = () => {
           <Route path='/product/:id' element={<ItemDetailContainer />} />
           <Route path='/cart' element={<Cart />} />
           <Route path='/Nosotros' element={<Nosotros />} />
-          <Route path='/category/category' element={ItemListContainer} />
+          <Route path='/category/:category' element={<ItemListContainer/>} />
+          <Route path='/Servis' element={<Servis />} />
         </Routes>
       </BrowserRouter>
     </>
@@ -27,4 +29,3 @@ const App = () => {
 }
 
 export default App
-

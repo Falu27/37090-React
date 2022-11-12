@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import './navbar.css';
 import FormSearch from '../FormSearch/FormSearch';
-import Dropdown from './Dropdown/Dropdown';
+import Secciones from './Secciones/Secciones';
 import LogoWU from '../../img/logoWU.png'
 import Cart from '../CartWidget/CartWidget';
 
@@ -28,7 +28,12 @@ const Navbar = () => {
               <Link className="nav-link" to="/Nosotros"> Nosotros</Link>
             </li>
 
-            <Dropdown />
+            <Secciones />
+
+            <li className="nav-item">
+
+              <Link className="nav-link" to="/Servis"> Servis</Link>
+            </li>
 
           </ul>
           <FormSearch busqueda={"Buscar Producto"} />

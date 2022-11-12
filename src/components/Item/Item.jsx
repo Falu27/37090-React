@@ -5,12 +5,9 @@ const Item = ({prod}) => {
         <div className="card cardProducto" >
             <img src={`../img/${prod.img}`} className="card-img-top" alt="..." />
             <div className="card-body">
-                <h5 className="card-title">{prod.nombre}</h5>
-                <p className="card-text">Marca: {prod.marca}</p>
-                <p className="card-text">Modelo: {prod.modelo}</p>
-                <p className="card-text">Rodado: {prod.rodado}</p>
-                <p className="card-text">Precio: ${prod.precio}</p>
-                <p className="card-text">Stock: {prod.stock}</p>
+                <h4 className="card-title">{prod.nombre}</h4>
+                <h5 className="card-text">{prod.marca} {prod.modelo} Rod: {prod.rodado} </h5>
+                <h6 className="card-text">Precio: ${new Intl.NumberFormat('de-DE').format(prod.precio)}</h6>
                 <button className='btn btn-dark'><Link className='nav-link' to={`/product/${prod.id}`}>Ver Producto</Link></button>
             </div>
         </div >

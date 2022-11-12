@@ -1,6 +1,6 @@
-import React from 'react';
+import Contador from "../ItemCount/ItemCount";
 
-const DetalleProducto = ({producto}) => {
+const ItemDetail = ({producto}) => {
     return (
         <div className='row g-0'>
             <div className='col-md-4'>
@@ -13,11 +13,12 @@ const DetalleProducto = ({producto}) => {
                     <p className='card-text'>Modelo: {producto.modelo}</p>
                     <p className='card-text'>Precio: ${producto.precio}</p>
                     <p className='card-text'>Stock: {producto.stock} Unidades</p>
-                    <button className='btn btn-dark'>Agregar al Carrito</button>
+                    <Contador/>
+                    <button className='btn btn-dark '>Agregar al Carrito</button>
                 </div>
             </div>
         </div>
     );
 }
 
-export default DetalleProducto;
+export default ItemDetail;

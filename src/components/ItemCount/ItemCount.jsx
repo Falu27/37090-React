@@ -15,9 +15,9 @@ const Contador = () => {
 
     return (
         <>
-            <button onClick={() => cuentaContador("+")} className='btn btn-dark'>+</button>
+            <button onClick={() => cuentaContador("-")} className='btn btn-link btnCount'>-</button>
             {contador}
-            <button onClick={() => cuentaContador("-")} className='btn btn-dark'>-</button>
+            <button onClick={() => cuentaContador("+")} className='btn btn-link btnCount'>+</button>
         </>
     );
 }
