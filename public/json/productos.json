@@ -8,7 +8,7 @@
         "rodado": "29",
         "precio": 80000,
         "stock": 30,
-        "img": "1Eolo.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-37090-galota-fabrizio.appspot.com/o/1Eolo.png?alt=media&token=556c02fd-758e-4317-8644-2fb266cfc278"
     },
     {
         "id": "Oxea-Folding-20",
@@ -19,7 +19,7 @@
         "rodado": "20",
         "precio": 40000,
         "stock": 20,
-        "img": "2Folding.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-37090-galota-fabrizio.appspot.com/o/2Folding.png?alt=media&token=dcf9ec48-2812-4c6e-a11a-4b07cc8850f8"
     },
     {
         "id": "Oxea-Hunter-29",
@@ -30,7 +30,7 @@
         "rodado": "29",
         "precio": 57000,
         "stock": 15,
-        "img": "3Hunter.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-37090-galota-fabrizio.appspot.com/o/3Hunter.png?alt=media&token=2b007bfb-df3a-4e87-89ea-60a20be23b5e"
     },
     {
         "id": "Oxea-Ridich-29",
@@ -41,7 +41,7 @@
         "rodado": "29",
         "precio": 80000,
         "stock": 30,
-        "img": "4Ridich.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-37090-galota-fabrizio.appspot.com/o/4Ridich.png?alt=media&token=e59fb6df-e7ec-4764-8dd7-e85cc080eff0"
     },
     {
         "id": "Venzo-Primal-29",
@@ -52,7 +52,7 @@
         "rodado": "29",
         "precio": 114000,
         "stock": 7,
-        "img": "5Primal.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-37090-galota-fabrizio.appspot.com/o/5Primal.png?alt=media&token=f1c67826-a44a-4710-abb9-1ae4d3dc94bf"
     },
     {
         "id": "Venzo-Raptor-29",
@@ -63,7 +63,7 @@
         "rodado": "29",
         "precio": 110000,
         "stock": 20,
-        "img": "6Raptor.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-37090-galota-fabrizio.appspot.com/o/6Raptor.png?alt=media&token=d74f744b-697b-4aa8-9721-490ecbad69e2"
     },
     {
         "id": "Venzo-Thorn-29",
@@ -74,7 +74,7 @@
         "rodado": "29",
         "precio": 115000,
         "stock": 10,
-        "img": "7Thorn.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-37090-galota-fabrizio.appspot.com/o/7Thorn.png?alt=media&token=60a90b29-95c2-46e1-aaf5-0c68deabf1bf"
     },
     {
         "id": "Venzo-Etna-29",
@@ -85,7 +85,7 @@
         "rodado": "29",
         "precio": 165000,
         "stock": 30,
-        "img": "8Etna.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-37090-galota-fabrizio.appspot.com/o/8Etna.png?alt=media&token=235ffc02-97db-4391-b59a-176f8a2e44f7"
     },
     {
         "id": "Venzo-Raphael-29",
@@ -96,7 +96,7 @@
         "rodado": "29",
         "precio": 234000,
         "stock": 21,
-        "img": "9Raphael.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-37090-galota-fabrizio.appspot.com/o/9Raphael.png?alt=media&token=889eda23-4301-4a06-8962-002151b0ec04"
     },
     {
         "id": "Cubierta-Maxxis-TR-29",
@@ -107,7 +107,7 @@
         "rodado": "29",
         "precio": 10000,
         "stock": 25,
-        "img": "10Cubierta.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-37090-galota-fabrizio.appspot.com/o/10Cubierta.png?alt=media&token=e81b9aa7-40e3-4e2b-b50c-f15e1f197039"
     }
     
 ]
