@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import {getFirestore, collection, addDoc, getDocs, getDoc, doc} from "firebase/firestore"
+import {getFirestore, collection, addDoc, getDocs, getDoc, doc, updateDoc, deleteDoc} from "firebase/firestore"
 
 const firebaseConfig = {
   apiKey: process.env.API_KEY,
@@ -43,5 +43,59 @@ const getProducto = async (id) => {
     return item
 }
 
+//Agregar Producto
+const createProducto = async (objProducto) => {
+    const estado = await addDoc(collection(db, "productos"), {
+        idCategoria: objProducto.idCategoria,
+        nombre: objProducto.nombre,
+        marca: objProducto.marca,
+        modelo: objProducto.modelo,
+        rodado: objProducto.rodado,
+        stock: objProducto.stock,
+        precio: objProducto.precio,
+        img: objProducto.img
+    })
 
-export {cargarBDD, getProductos} 
+    return estado
+}
+
+//Actualizar (Create Read Udate Delete = CRUD)
+
+const updateProducto = async(id, info) => {
+    const estado = await updateDoc(doc(db, "productos",id), info)
+    return estado
+}
+
+
+//Eliminar
+
+const deleteProducto = async(id) => {
+    const estado = await deleteDoc(doc(db,"productos", id))
+    return estado
+}
+ 
+
+
+//Orden de Compra
+
+const createOrder = async (cliente, pFinal, fecha) => {
+    const ordenCompra = await addDoc(collection(db, "ordenCompra"), {
+        nombre: cliente.nombre,
+        apellido: cliente.apellido,
+        email: cliente.email,
+        dni: cliente.dni,
+        fecha: fecha,
+        precioFinal: pFinal
+    })
+
+    return ordenCompra
+}
+
+const getOrdenCompra = async(id) => {
+    const item = await getDoc(doc(db, "ordenCompra", id))
+    const ordenCompra = {...item.data(), id: item.id}
+    return ordenCompra
+}
+
+
+export {cargarBDD, getProductos, getProducto, createProducto, updateProducto, deleteProducto, createOrder, getOrdenCompra}

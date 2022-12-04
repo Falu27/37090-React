@@ -1,4 +1,5 @@
 import React from 'react';
+import { Navigate } from 'react-router-dom';
 
 const Checkout = () => {
   const datosFormulario = React.useRef()
@@ -7,6 +8,7 @@ const Checkout = () => {
     const datForm = new FormData(datosFormulario.current)
     const valores = Object.fromEntries(datForm)
     e.target.reset()
+    
   }
 
   return (
@@ -15,12 +17,12 @@ const Checkout = () => {
         
         <div className="mb-3">
           <label htmlFor="nombre" className="form-label">Apellido y Nombre</label>
-          <input type="text" className="form-control" name="nombre" />
+          <input type="text" className="form-control" name="nombre" required />
         </div>
 
         <div className="mb-3">
           <label htmlFor="email" className="form-label">Email </label>
-          <input type="email" className="form-control" name="email" />
+          <input type="email" className="form-control" name="email" required />
         </div>
 
         <div className="mb-3">
@@ -30,7 +32,7 @@ const Checkout = () => {
 
         <div className="mb-3">
           <label htmlFor="numeroTelefonico" className="form-label">Numero Telefonico</label>
-          <input type="number" className="form-control" name="telefono" />
+          <input type="number" className="form-control" name="telefono" required />
         </div>
 
         <div className="mb-3">

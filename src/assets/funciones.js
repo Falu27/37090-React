@@ -1,3 +1,4 @@
+/*
 import { cargarBDD, getProductos } from "./firebase"
 
 export const consultarBDD = async (ruta) => {
@@ -7,3 +8,5 @@ export const consultarBDD = async (ruta) => {
 }
 
 //cargarBDD()
+
+ */
