@@ -32,14 +32,20 @@ const cargarBDD = async () => {
 }
 
 const getProductos = async() => {
-    const productos = await getDocs (collection(db, "productos"))
+    const productos = await getDocs(collection(db, "productos"))
     const items =  productos.docs.map(prod => { return {...prod.data(), id: prod.id}})
     return items
 }
 
 const getProducto = async (id) => {
-    const prod = await getDoc (doc(db, "productos", id))
-    const item =  {...prod.data(), id: prod.id}
+    const prod = await getDoc(doc(db, "productos", id))
+    let item
+    if(prod.data()) {
+        item = {...prod.data(), id: prod.id}
+    } else {
+        item = "Producto no encontrado"
+    }
+    
     return item
 }
 
@@ -81,7 +87,6 @@ const deleteProducto = async(id) => {
 const createOrder = async (cliente, pFinal, fecha) => {
     const ordenCompra = await addDoc(collection(db, "ordenCompra"), {
         nombre: cliente.nombre,
-        apellido: cliente.apellido,
         email: cliente.email,
         dni: cliente.dni,
         fecha: fecha,

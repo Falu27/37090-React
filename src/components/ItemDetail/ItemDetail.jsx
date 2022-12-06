@@ -25,6 +25,7 @@ const ItemDetail = ({producto}) => {
                     <p className='card-text'>Stock: {producto.stock} Unidades</p>
                     <Contador stock ={producto.stock} onAdd={onAdd}/>
                     <button className="btn btn-danger btnAgr"><Link to="/cart" className="nav-link">Finalizar Compra</Link></button>
+                    <button className="btn btn-dark btnAgr"><Link to="/" className="nav-link">Seguir Comprando</Link></button>
                 </div>
             </div>
         </div>

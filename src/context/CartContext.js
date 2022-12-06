@@ -1,4 +1,4 @@
-import {useContext, useState, createContext} from 'react'
+import {useState, createContext} from 'react'
 
 const CartContext = createContext([])
 

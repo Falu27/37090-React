@@ -1,6 +1,9 @@
 import './app.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 import { CartContextProvider } from '../context/CartContext';
 
 import Navbar from './navbar/Navbar';
@@ -27,6 +30,7 @@ const App = () => {
             <Route path='/Servis' element={<Servis />} />
             <Route path='/checkout' element={<Checkout/>}> </Route>
           </Routes>
+          <ToastContainer/>
         </BrowserRouter>
       </CartContextProvider>
     </>

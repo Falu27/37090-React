@@ -3,7 +3,6 @@ import { CartContext } from "../../context/CartContext";
 import { Link } from "react-router-dom";
 
 
-
 const Cart = () => {
    const {cart, emptyCart, totalPrice, removeItem} = useContext(CartContext)
 
@@ -12,7 +11,7 @@ const Cart = () => {
         {
             cart.length === 0 ? <div>
             <p className="pCarrito">Tu carrito esta vacio</p>
-            <Link to={'/'}><button className="btn btn-dark">Ir de Compra</button></Link>
+            <Link to={'/'}><button className="btn btn-dark">Ir de Compras</button></Link>
         </div> : <div>
                 {cart.map((prod,indice) =><div className="card mb-3" key={indice} style={{maxWidth: '580px'}}>
                 <div className="row g-0">
