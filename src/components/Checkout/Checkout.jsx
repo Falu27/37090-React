@@ -23,7 +23,7 @@ const Checkout = () => {
     })
 
     createOrder(valores, totalPrice(), new Date().toISOString().slice(0, 10)).then(orden => {
-      toast.success(`Su orden ID ${orden.id} se a realizado exitosamente!`, {
+      toast.success(`Felicidades! Su orden ID ${orden.id} se a realizado exitosamente!`, {
         position: "top-center",
 autoClose: 4000,
 hideProgressBar: false,
